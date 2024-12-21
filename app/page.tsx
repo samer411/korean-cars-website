@@ -1,3 +1,9 @@
-export default function samer(){
-   return <h1>samer</h1>
+import React from "react";
+import Header from "./header";
+const Home:React.FC=()=>{
+    return(
+        <Header></Header>
+    )
 }
+
+export default Home;
