@@ -1,7 +1,15 @@
+import Image from 'next/image';
+import logo from '../../public/i-platform_mobility 1.png';
+
 export default function Header(){
     return(
         <header>
-            <img src="/public/i-platform_mobility 1.png" alt="logo"/>
+            <Image
+      src={logo}
+      width={50}
+      height={50}
+      alt="Picture of the author"
+        />
             <nav>
             <a>알림마당</a>
             <a>연구기관 소개</a>
