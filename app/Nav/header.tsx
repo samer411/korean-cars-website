@@ -3,7 +3,7 @@ import logo from '../../public/i-platform_mobility 1.png';
 
 export default function Header(){
     return(
-        <header>
+        <header className=''>
             <Image
       src={logo}
       width={50}
